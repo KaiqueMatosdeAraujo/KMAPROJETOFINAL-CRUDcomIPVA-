@@ -107,7 +107,7 @@ private void apagaripva(HttpServletRequest request, HttpServletResponse response
 String idIpva= request.getParameter("ipvaID");
 if (idIpva!= null) {
 	Integer id = Integer.parseInt(idIpva);
-	this.dI.excluirIpva(id);;
+	this.dI.excluirIpva(id);
 }
 response.sendRedirect("ServletIpva");
 }

@@ -45,10 +45,10 @@
                     <c:forEach var="ipvaForEach" items="${itemsIpva}">
                         <tr>
                             
-                            <form action="ServletCrud" method="post">
+                            <form action="ServletIpva" method="post">
                                 <td class="col-4">
                                     <c:out value="${ipvaForEach.id}"/>
-                                    <input type="hidden" name="carroID" value="${ipvaForEach.id}"/>
+                                    <input type="hidden" name="ipvaID" value="${ipvaForEach.id}"/>
                                 </td>
                                 
                                 <td class="col-	4">
